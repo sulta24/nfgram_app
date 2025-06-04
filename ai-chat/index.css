@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --tg-bg: #22222b;
+  --tg-primary: #0088cc;
+  --tg-secondary: #2a2f3a;
+  --tg-text: #fff;
+  --tg-accent: #5ad1e6;
+}
+
+body {
+  background: var(--tg-bg);
+  color: var(--tg-text);
+} 
